@@ -13,12 +13,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;*/
 }
-h1 {
+
+h1:hover{
     color: #3C2B74;
     text-align: center;
     border-style: solid;
     border-width: 6px;
-    border-color: rgba(124, 110, 170, 0.4);
+    border-color: rgba(150, 120, 102, 1.2);
     cursor: pointer;
 }
 
@@ -27,11 +28,33 @@ header li {
     display: inline-block;
 }
 
-/*
+
 p {
     color: blue;
 }
 
 p {
     color: green;
-}*/
+    background-color: black;
+}
+#bg-id{
+
+    background-color: darkblue;
+}
+
+.error
+{
+   color: aqua;
+    border: 1px dashed red;
+}
+.highlight-text {
+    font-weight: bold;
+    color: blueviolet;
+    font-style: oblique;
+    word-spacing: 10px;
+    border-color: black;
+}
+#border{
+    border: 5px solid blue;
+    border-radius: 6px;
+}
