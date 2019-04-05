@@ -1,0 +1,19 @@
+.box
+{
+
+   color: blueviolet;
+    border: 5px solid fuchsia;
+    display:inline-block;
+    padding:20px 50px 40px 30px;
+    margin: 5px 10px 3px 8px;
+
+}
+.highlight
+{
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size:3em;
+    font-family: 'Indie Flower', cursive;
+}
